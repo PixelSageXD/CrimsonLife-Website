@@ -152,12 +152,50 @@ code {
 	padding: 0;
 }
 
+.playerCard {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 1.25rem;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: var(--secondary);
+	transition: border-color 0.25s;
+}
+
+.PlayerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .playerGrid {
 	display: grid;
-	/* grid-auto-flow: row dense; */
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	grid-gap: 20px;
+	grid-template-columns: repeat(5, 275px);
+	grid-gap: 30px;
 	align-items: center;
+	justify-items: center;
+	justify-content: center
+}
+
+.teamGrid {
+	display: grid;
+	grid-template-columns: repeat(5, 275px);
+	grid-gap: 30px;
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+	margin-top: 20px
+}
+
+.cardGrid {
+	display: grid;
+	grid-template-columns: repeat(3, 400px);
+	grid-gap: 30px;
+	align-items: stretch;
+	grid-auto-flow: row;
+	justify-items: center;
+	justify-content: center
 }
 
 @media only screen and (max-width: 1024px) {
