@@ -112,7 +112,7 @@ button:hover {
 
 @media (prefers-color-scheme: light) {
 	:root {
-		color: #4a062a;
+		color: var(--primary);
 		background-color: #ffffff;
 	}
 	button {
@@ -180,7 +180,7 @@ code {
 
 .teamGrid {
 	display: grid;
-	grid-template-columns: repeat(5, 275px);
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-gap: 30px;
 	align-items: center;
 	justify-items: center;
@@ -224,4 +224,111 @@ code {
 
 Link {
 	cursor: pointer;
+}
+
+.player-profile {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+	border-radius: 1rem;
+    max-width: 700px;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: var(--secondary);
+    box-shadow: 0 0 20px rgba(70, 0, 34, 0.3);
+}
+
+.skin-list {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+	border-radius: 1rem;
+    margin: 0 auto;
+    max-width: 900px;
+	width: fit-content;
+    text-align: center;
+    margin-top: 0.5rem;
+    background-color: var(--secondary);
+    box-shadow: 0 0 30px rgba(70, 0, 34, 0.3);
+}
+
+.season-info {
+    display: flex;
+    gap: 0.5rem;
+	border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--secondary);
+    box-shadow: 0 0 30px rgba(70, 0, 34, 0.3);
+}
+
+.season-info ul {
+	margin: 0
+}
+
+.bullet-list {
+    padding-left:2.5rem;
+    color: white;
+    list-style-type: disc;
+}
+
+.skin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skin img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.profile-img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.profile-info {
+    flex: 1;
+    color: #fff;
+}
+
+.profile-info h2 {
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.profile-info p {
+    margin: 0.2rem 0;
+}
+
+@media (max-width: 768px) {
+    .player-profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-info {
+        text-align: center;
+    }
+
+    .season-info {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .skin-list {
+        width: calc(100% - 2rem);
+        max-width: none;
+    }
 }

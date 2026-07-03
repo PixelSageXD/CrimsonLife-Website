@@ -16,7 +16,7 @@
         margin: 0 auto 2rem;
         padding: 1rem;
         border-radius: 1rem;
-        background-color: #3f0524;
-        box-shadow: 0 0 30px rgba(63, 5, 36, 0.3)
+        background-color: var(--secondary);
+        box-shadow: 0 0 30px rgba(70, 0, 34, 0.3)
     }
 </style>
