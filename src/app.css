@@ -190,7 +190,7 @@ code {
 
 .cardGrid {
 	display: grid;
-	grid-template-columns: repeat(3, 400px);
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-gap: 30px;
 	align-items: stretch;
 	grid-auto-flow: row;

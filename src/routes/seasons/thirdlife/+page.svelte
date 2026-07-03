@@ -4,9 +4,13 @@
     import playerData from '$lib/data/players.json';
     import teamData from '$lib/data/TLteams.json';
 
+    const seasonPlayers = playerData.filter(player =>
+        player.seasonCheck.includes("CTL")
+    );
+
     function getPlayer(name: string) {
         return playerData.find(p => p.name === name);
-    }
+    };
 </script>
 
 <div style="margin: 1rem;">
@@ -23,7 +27,7 @@
 
     <br><h1 class="montserrat" style="text-align:center">PLAYERS</h1><br>
     <div class="playerGrid m-10">
-        {#each playerData as player}
+        {#each seasonPlayers as player}
             <PlayerCard
                 name={player.name}
                 nickname={player.nickname}

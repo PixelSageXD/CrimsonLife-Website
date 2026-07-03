@@ -37,7 +37,9 @@
         <strong>{nickname}</strong>
         </h2>
         <p style="color:white">{name}</p>
-        <p style="color:white">{placement}</p>
+        {#if season}
+            <p style="color:white">{placement}</p>
+        {/if}
         <p style="color:white">{seasons}</p>
     </div>
 </a>
