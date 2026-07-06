@@ -1,15 +1,15 @@
-<p style="text-align:center">
-<strong>Click on the links below to view its video/playlist!</strong>
-</p>
+<h2 style="text-align:center">Crimson Life Lore Archive</h2>
 
 <p style="text-align:center">
-    This page contains a link to every public video on Crimson Life.<br>
-    If there is one missing, report it in the Discord!
+    This page contains every instance of the series' lore.<br>
+    Any videos, text or the like will be added here when revealed.
 </p>
 
 <div class="season-videos">
   <h1 class="bungee text-3xl">Crimson Third Life</h1>
-  <p>No videos yet</p>
+  <p><strong>Teaser Video:</strong>
+        <a href="https://www.youtube.com/watch?v=MK62GKl05F8">YouTube</a></p>
+  <p>More is yet to be revealed.</p>
 </div>
 
 <style> 

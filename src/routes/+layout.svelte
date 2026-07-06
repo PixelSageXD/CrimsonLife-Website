@@ -45,6 +45,9 @@
 				<li class="mobile-li">
 					<a href="/videos" class="nav-link" class:active={currentPath === '/videos'}>Videos</a>
 				</li>
+				<li class="mobile-li">
+					<a href="/lore" class="nav-link" class:active={currentPath === '/lore'}>Lore</a>
+				</li>
 			</ul>
 		</nav>
 	</div>
@@ -66,6 +69,9 @@
 				</li>
 				<li class="desktop-li">
 					<a href="/videos" class="nav-link" class:active={currentPath === '/videos'}>Videos</a>
+				</li>
+				<li class="desktop-li">
+					<a href="/lore" class="nav-link" class:active={currentPath === '/lore'}>Lore</a>
 				</li>
 			</ul>
 		</nav>
