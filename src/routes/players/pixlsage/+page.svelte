@@ -1,13 +1,14 @@
 <script lang="ts">
     import playerData from '$lib/data/players.json';
     const player = playerData.find(p => p.name === "pixlsage")
+    import PlayerRef from '$lib/components/playerRef.svelte';
 </script>
 
 <div class="player-profile">
   <img src="/players/pixlsage.png" alt="Pix" class="profile-img" />
 
   <div class="profile-info">
-    <h2 class="montserrat text-2xl">{player.nickname}</h2>
+    <h2 class="montserrat text-nickname">{player.nickname}</h2>
     <p>Username: {player.name}</p>
     <p>Former Name(s): None</p>
     <p>Pronouns: any/all</p>
@@ -15,33 +16,56 @@
     <p>Average Placement: N/A</p>
   </div>
 </div>
-
 <br>
-<h2 class="montserrat text-3xl" style="text-align: center">Other Skins</h2>
+<br>
+<h2 class="montserrat text-subtitle" style="text-align: center">Other Skins</h2>
 <div class="skin-list">
   <figure class="skin">
     <img src="/players/thirdlife/pixlsage.png" alt="third life skin">
     <figcaption style="margin-top: 0.5rem">Third Life</figcaption>
   </figure>
-  <figure class="skin">
-    <img src="/players/lastlife/pixlsage.png" alt="last life skin">
-    <figcaption style="margin-top: 0.5rem">Last Life</figcaption>
-  </figure>
-  <figure class="skin">
-    <img src="/players/doublelife/pixlsage.png" alt="double life skin">
-    <figcaption style="margin-top: 0.5rem">Double Life</figcaption>
-  </figure>
 </div>
 <br>
-
-<div class="season-info">
-  <h1 class="montserrat text-3xl">Crimson Third Life</h1>
-  <p>Placement: N/A<br>
-  Team: None</p>
-  <ul class="bullet-list">
-    <li><strong>[S1]</strong> Event Placeholder</li>
-    <li><strong>[S2]</strong> Session 2 Event</li>
-  </ul>
+<br>
+<h2 class="montserrat text-subtitle" style="text-align: center">Seasons</h2>
+<div class="season-grid">
+  <div class="season-info">
+    <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
+    <p>Placement: N/A<br>
+    Team: None</p>
+    <ul class="bullet-list">
+      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S2]</strong> <PlayerRef name="pixlsage" lives={3} /> was slain by <PlayerRef name="Placeholder" lives={1} /></li>
+    </ul>
+  </div>
 </div>
 
-<br>
+<div>
+  <br>
+</div>
+
+<style>
+  .text-nickname {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .text-subtitle {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .season-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .season-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

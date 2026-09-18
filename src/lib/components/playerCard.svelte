@@ -33,7 +33,7 @@
         width="150"
         alt={nickname}
         />
-        <h2 class={`montserrat text-2xl ${season ? getPlayerColour(lives) : ""}`}>
+        <h2 class={`montserrat ${season ? getPlayerColour(lives) : ""}`}>
         <strong>{nickname}</strong>
         </h2>
         <p style="color:white">{name}</p>

@@ -20,9 +20,9 @@
     <br>
     <div class="info" style="text-align:center">
     <h1 class="montserrat" style="text-align:center">INFO</h1>
-    <p class="text-xl" style="text-align:center">
+    <h3 style="text-align:center">
     Start Date: N/A<br>End Date: N/A<br>Winner: N/A<br>
-    </p>
+    </h3>
     </div>
 
     <br><h1 class="montserrat" style="text-align:center">PLAYERS</h1><br>
@@ -60,4 +60,6 @@
     <br><h1 class="montserrat" style="text-align:center">EVENTS</h1>
     <h2 class="montserrat" style="text-align:center">Session 1</h2>
     <p style="text-align:center">This session has not yet taken place.</p>
+
+    <br>
 </div>

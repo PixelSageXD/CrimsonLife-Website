@@ -3,7 +3,7 @@
 </script>
 
 <div class="teamCard">
-    <h1 class="text-3xl md:text-5xl lg:text-5xl pb-5 montserrat text-gray-200 text-center">{teamName}</h1>
+    <h2 class="montserrat text-gray-200 text-title" style="text-align: center">{teamName}</h2>
     <div class="teamGrid">
         <slot></slot>
     </div>
@@ -18,5 +18,10 @@
         border-radius: 1rem;
         background-color: var(--secondary);
         box-shadow: 0 0 30px rgba(70, 0, 34, 0.3)
+    }
+
+    .text-title {
+        font-size: 2rem;
+        margin-top: 0;
     }
 </style>

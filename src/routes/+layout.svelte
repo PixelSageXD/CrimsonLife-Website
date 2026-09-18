@@ -43,10 +43,7 @@
 					<a href="/players" class="nav-link" class:active={currentPath === '/players'}>Players</a>
 				</li>
 				<li class="mobile-li">
-					<a href="/videos" class="nav-link" class:active={currentPath === '/videos'}>Videos</a>
-				</li>
-				<li class="mobile-li">
-					<a href="/lore" class="nav-link" class:active={currentPath === '/lore'}>Lore</a>
+					<a href="/content" class="nav-link" class:active={currentPath === '/content'}>Content</a>
 				</li>
 			</ul>
 		</nav>
@@ -68,10 +65,7 @@
 					<a href="/players" class="nav-link" class:active={currentPath === '/players'}>Players</a>
 				</li>
 				<li class="desktop-li">
-					<a href="/videos" class="nav-link" class:active={currentPath === '/videos'}>Videos</a>
-				</li>
-				<li class="desktop-li">
-					<a href="/lore" class="nav-link" class:active={currentPath === '/lore'}>Lore</a>
+					<a href="/content" class="nav-link" class:active={currentPath === '/content'}>Content</a>
 				</li>
 			</ul>
 		</nav>

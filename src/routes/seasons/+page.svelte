@@ -12,7 +12,7 @@
     <a href="/seasons/thirdlife">
       <button class="p-5">
         <img src="CTL-logo.png" class="size-2/3 m-auto" width="256" alt="third life logo">
-        <h3 class="text-center mt-2 montserrat">THIRD LIFE</h3>
+        <h2 class="text-center mt-2 montserrat">THIRD LIFE</h2>
       </button>
     </a>
 </div>
