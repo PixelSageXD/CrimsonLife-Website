@@ -4,13 +4,11 @@
     </video>
     <br>
     <h2 class="text-title">VIGOR</h2>
-    <p class="text-desc">Gain 3 temporary absorption hearts.
-        <!-- AFTER ONE FIND: Gain 3 ##### until they are lost. -->
+    <p class="text-desc">Gain 3 ##### until they are lost.
 
-        <br><br>[___G_____]</p>
-        <!-- AFTER ONE FIND: [____O____] -->
+        <br><br>[____O____]</p>
         <!-- AFTER TWO FINDS: [_____T___] -->
-         
+
     <!-- REMOVE ALL AFTER THREE FINDS -->
 </div>
 

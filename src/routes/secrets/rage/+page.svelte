@@ -7,7 +7,6 @@
     <p class="text-desc">Increase your ##### by 50%.
 
         <br><br>[__R______]</p>
-        <!-- AFTER TWO FINDS: [__R______] -->
          
     <!-- REMOVE ALL AFTER THREE FINDS -->
 </div>
