@@ -1,14 +1,5 @@
 <div class="video-container">
-    <video autoplay muted loop playsinline>
-        <source src="/secrets/rage.mp4" type="video/mp4">
-    </video>
-    <br>
-    <h2 class="text-title">RAGE</h2>
-    <p class="text-desc">Increase your ##### by 50%.
-
-        <br><br>[__R______]</p>
-         
-    <!-- REMOVE ALL AFTER THREE FINDS -->
+    <h2 class="text-desc">You're too late.</h2>
 </div>
 
 <style>
