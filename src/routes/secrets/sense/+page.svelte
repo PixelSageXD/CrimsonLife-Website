@@ -1,15 +1,5 @@
 <div class="video-container">
-    <video autoplay muted loop playsinline>
-        <source src="/secrets/sense.mp4" type="video/mp4">
-    </video>
-    <br>
-    <h2 class="text-title">SENSE</h2>
-    <p class="text-desc">See the location of #####.
-
-        <br><br>[________N]</p>
-        <!-- AFTER TWO FINDS: [________N] -->
-         
-    <!-- REMOVE ALL AFTER THREE FINDS -->
+    <h2 class="text-desc">You're too late.</h2>
 </div>
 
 <style>
