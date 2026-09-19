@@ -6,7 +6,7 @@
     <h2 class="text-title">SENSE</h2>
     <p class="text-desc">See the location of #####.
 
-        <br><br>[_______E_]</p>
+        <br><br>[________N]</p>
         <!-- AFTER TWO FINDS: [________N] -->
          
     <!-- REMOVE ALL AFTER THREE FINDS -->
