@@ -6,8 +6,7 @@
     <h2 class="text-title">VIGOR</h2>
     <p class="text-desc">Gain 3 ##### until they are lost.
 
-        <br><br>[____O____]</p>
-        <!-- AFTER TWO FINDS: [_____T___] -->
+        <br><br>[____T___]</p>
 
     <!-- REMOVE ALL AFTER THREE FINDS -->
 </div>
