@@ -4,11 +4,9 @@
     </video>
     <br>
     <h2 class="text-title">RAGE</h2>
-    <p class="text-desc">Increase your attack damage by 50%.
-        <!-- AFTER ONE FIND: Increase your ##### by 50%. -->
+    <p class="text-desc">Increase your ##### by 50%.
 
-        <br><br>[F________]</p>
-        <!-- AFTER ONE FIND: [_O_______] -->
+        <br><br>[_O_______]</p>
         <!-- AFTER TWO FINDS: [__R______] -->
          
     <!-- REMOVE ALL AFTER THREE FINDS -->
