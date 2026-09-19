@@ -1,5 +1,5 @@
 <script>
-	import "../app.css";
+	import "../../app.css";
 	import { onMount } from 'svelte';
 	import { writable } from 'svelte/store';
 	import { page } from '$app/stores';
@@ -76,7 +76,24 @@
     <slot></slot>
 </div>
 
+<svelte:head>
 <style>
+	:root {
+		--primary: #4a062a;
+		--secondary: #680c38;
+		font-family: 'Lexend', sans-serif;
+		line-height: 1.5;
+		font-weight: 400;
+
+		color-scheme: light dark;
+		color: rgba(255, 255, 255, 0.87);
+		background-color: var(--primary);
+
+		font-synthesis: none;
+		text-rendering: optimizeLegibility;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
 
 	.logo {
 		display: block;
@@ -134,3 +151,4 @@
         font-weight: bold;
     }
 </style>
+</svelte:head>
