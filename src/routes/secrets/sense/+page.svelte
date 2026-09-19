@@ -4,11 +4,9 @@
     </video>
     <br>
     <h2 class="text-title">SENSE</h2>
-    <p class="text-desc">See the location of your closest player.
-        <!-- AFTER ONE FIND: See the location of #####. -->
+    <p class="text-desc">See the location of #####.
 
-        <br><br>[______T__]</p>
-        <!-- AFTER ONE FIND: [_______E_] -->
+        <br><br>[_______E_]</p>
         <!-- AFTER TWO FINDS: [________N] -->
          
     <!-- REMOVE ALL AFTER THREE FINDS -->
