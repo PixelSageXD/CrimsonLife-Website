@@ -22,6 +22,11 @@
 <br>
 
 <p style="text-align:center">
+    <strong>Crimson Life</strong> is a fanmade Life Series by pixlsage, as a continuation to Pixel's Life Series.<br>
+    This website acts as a documentation of each of the seasons and players.<br>
+</p>
+
+<p style="text-align:center">
     <a href="/secrets/contact" class="glitch-link">
         <img src={currentImage} alt="Glitch">
     </a>
@@ -34,6 +39,6 @@
     }
 
     .glitch-link img {
-        width: 300px;
+        width: 250px;
     }
 </style>

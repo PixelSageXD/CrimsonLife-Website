@@ -22,6 +22,8 @@
         Much of the information given as a reward in this puzzle will be limited to a certain number of people.
         This means that if you find any information about the series in a secret page, DM Pix to let them know, with a screenshot if possible.
         Once the DM is acknowledged, you can share info to do with how to find the page, but not what you learned there.
+
+        Most importantly, DO NOT at any point view the source code of this site. At no point is that required to progress, and it will only reveal things that break the game.
         
         Regardless: have fun!`,
 
