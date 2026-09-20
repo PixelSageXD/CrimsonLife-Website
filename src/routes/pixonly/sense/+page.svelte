@@ -1,5 +1,11 @@
 <div class="video-container">
-    <h2 class="text-desc">You're too late.</h2>
+    <video autoplay muted loop playsinline>
+        <source src="/secrets/sense.mp4" type="video/mp4">
+    </video>
+    <br>
+    <h2 class="text-title">SENSE</h2>
+    <p class="text-desc">See the location of your nearest player.</p>
+    <p class="text-desc">[______TEN]</p>
 </div>
 
 <style>
@@ -15,13 +21,13 @@
 
     .text-title {
         font-family: 'Minecraft-Bold', sans-serif;
-        color: #aa0000;
+        color: #00aa00;
         text-align: center;
     }
 
     .text-desc {
         font-family: 'Minecraft-Regular', sans-serif;
-        color: #aa0000;
+        color: #00aa00;
         text-align: center;
     }
 </style>

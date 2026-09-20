@@ -1,5 +1,11 @@
 <div class="video-container">
-    <h2 class="text-desc">You're too late.</h2>
+    <video autoplay muted loop playsinline>
+        <source src="/secrets/rage.mp4" type="video/mp4">
+    </video>
+    <br>
+    <h2 class="text-title">RAGE</h2>
+    <p class="text-desc">Increase your attack damage by 50%.</p>
+    <p class="text-desc">[FOR______]</p>
 </div>
 
 <style>
@@ -15,13 +21,13 @@
 
     .text-title {
         font-family: 'Minecraft-Bold', sans-serif;
-        color: #00aa00;
+        color: #aa0000;
         text-align: center;
     }
 
     .text-desc {
         font-family: 'Minecraft-Regular', sans-serif;
-        color: #00aa00;
+        color: #aa0000;
         text-align: center;
     }
 </style>

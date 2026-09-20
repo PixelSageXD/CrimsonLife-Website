@@ -1,5 +1,11 @@
 <div class="video-container">
-    <h2 class="text-desc">You're too late.</h2>
+    <video autoplay muted loop playsinline>
+        <source src="/secrets/vigor.mp4" type="video/mp4">
+    </video>
+    <br>
+    <h2 class="text-title">VIGOR</h2>
+    <p class="text-desc">Gain 3 temporary absorption hearts.</p>
+    <p class="text-desc">[___GOT___]</p>
 </div>
 
 <style>

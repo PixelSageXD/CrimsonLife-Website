@@ -14,8 +14,8 @@
 </script>
 
 <div style="margin: 1rem;">
-    <div class="logo mb-5" style="text-align:center">
-        <img src="/CTL-logo.png" class="size-1/5 m-auto" width="256" alt="third life logo">
+    <div class="logo mb-5">
+        <img src="/CTL-logo.png" class="series-logo" alt="third life logo">
     </div>
     <br>
     <div class="info" style="text-align:center">
@@ -63,3 +63,16 @@
 
     <br>
 </div>
+
+<style>
+    .logo {
+        width: 100%;
+    }
+
+    .series-logo {
+        display: block;
+        width: 256px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>

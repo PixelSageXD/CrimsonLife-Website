@@ -1,5 +1,6 @@
 <script>
     export var name = "";
+    export var nickname = "";
     export var lives = 3;
     export var season = "";
     let imageAttempt = 0;
@@ -39,7 +40,7 @@
             alt={name}
             class="player-icon"
         />
-        <span class={getPlayerColour(lives)}>{name}</span>
+        <span class={getPlayerColour(lives)}>{nickname || name}</span>
     </span>
 </a>
 
